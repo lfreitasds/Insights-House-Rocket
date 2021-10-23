@@ -69,11 +69,11 @@ You can launch the app here:
 
 **Step 06. Purchase Recommendation Report:**  Group the homes by area (zip code). Calculate the median price within each area. Include in the report homes that are below the median price for each area and that are in good condition (at least 3).
 
-You can download the report here: [report_purchase_recom.csv](https://github.com/lfreitas16/Insights-House-Rocket/blob/main/report_purchase_recom.csv?raw=true)  
+You can open the report here: [report_purchase_recom.csv](https://github.com/lfreitas16/Insights-House-Rocket/blob/main/report_purchase_recom.csv)  
 
 **Step 07. Sale Price Report:** Create a report listing all homes with a recommended sale price for each one. Group the homes by area (zip code) and by seasons (summer, winter, and so on). Calculate the median price within each area and season.
 
-You can download the report here: [report_sale_price.csv](https://github.com/lfreitas16/Insights-House-Rocket/blob/main/report_sale_price.csv?raw=true)
+You can open the report here: [report_sale_price.csv](https://github.com/lfreitas16/Insights-House-Rocket/blob/main/report_sale_price.csv)
 
 You can find more information in the Project Notebook  
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
