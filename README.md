@@ -1,5 +1,3 @@
-README.md
-
 # Welcome to the House Rocket Data Analysis
 ![alt text](https://github.com/lfreitas16/Insights-House-Rocket/blob/main/real_estate.jpg?raw=true)
 
@@ -7,7 +5,7 @@ README.md
 
 ### 1.1 - Description
 
-House Rocket is a real estate technology company (fictional) interested in digital innovations to help them buy and sell homes.
+House Rocket is a technology company (fictional) interested in digital innovations to help them buy and real estate.
 
 The purpose of this project is to create insights through data analysis to help the decision-makers find the best business opportunities in the real estate market of King County. In other words, finding homes below market value in good locations and with good potential for future resale at a higher price.
 
@@ -45,39 +43,40 @@ The data for our portfolio comes from the official public records of home sales 
 
 * All homes in the dataset considered available for purchase regarding the purchase recommendation report.
 
-* To be included in the purchase recommendation report, the home had to be at least as condition 3.
+* Homes had to be at least as condition 3 to be included in the purchase recommendation report.
 
 * All homes in the dataset considered as owned by the company regarding the sale price calculation.
 
-* Seasons of the year considered to affect house prices.
+* Seasons of the year considered to affect home prices.
 
 ## 3 - Solution Strategy
 
-**Step 01**. Descriptive Analysis: Analyze each of the columns providing descriptive metrics for each attribute, obtaining a table with a statistical summary of the dataframe.
+**Step 01. Descriptive Analysis:** Analyze each of the columns providing descriptive metrics for each attribute, obtaining a table with a statistical summary of the dataframe.
 
-**Step 02**. Reverse Geocoding: Get the address using a Geopy tool called Nominatim, which can find the nearest address given the latitude and longitude. Add the following information to each home: road, house number, neighborhood, city, county, and state.
+**Step 02. Reverse Geocoding:** Get the address using a Geopy tool called Nominatim, which can find the nearest address given the latitude and longitude. Add the following information to each home: road, house number, neighborhood, city, county, and state.
 
-**Step 03**. Data Visualization: Create different graphs to explore and better understand our data.
+**Step 03. Data Visualization:** Create different graphs to explore and better understand our data.
 Commercial Attributes: Examine the average prices by year of construction, number of bedrooms, and residence type.
-Houses Attributes: Examine the concentration of homes by the number of bedrooms, number of bathrooms, number of floors, and waterfront.
+Houses Attributes: Examine the concentration of homes by the number of bedrooms, number of bathrooms, number of floors, and waterfront. Create a map that shows the geographic location of the homes and a visual representation regarding the price and condition.
 
-Create a map that shows the geographic location of the homes and a visual representation regarding the price and condition.
-
-**Step 04**. Cloud Application: Build, deploy and run a cloud application where the House Rocket CEO can do the analyses by himself reviewing the company's portfolio. The app will have graphs and a map with an interactive user interface. With the available filters, one can select the data to be shown in tables and graphs. Selection can be made by one or more attributes, by zip code, by maximum price, and so on. A map will show the portfolio density (number of homes) by zip code area.
+**Step 04. Cloud Application:** Build, deploy and run a cloud application where the House Rocket CEO can do the analyses by himself reviewing the company's portfolio. The app will have graphs and a map with an interactive user interface. With the available filters, one can select the data to be shown in tables and graphs. Selection can be made by one or more attributes, by zip code, by maximum price, and so on. A map will show the portfolio density (number of homes) by zip code area.
 
 You can launch the app here:
 [House Rocket App](https://analytics-house-rocket-lf16.herokuapp.com/)
 ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
-**Step 05**. Hypotheses Testing: Discover insights and trends and communicate the findings to the business team. Insights are unexpected discoveries through data.
+**Step 05. Hypotheses Testing:** Discover insights and trends and communicate the findings to the business team. Insights are unexpected discoveries through data.
 
-**Step 06**. Purchase Recommendation Report:  Group the homes by area (zip code). Calculate the median price within each area. Include in the report homes that are below the median price for each area and that are in good condition (at least 3).
+**Step 06. Purchase Recommendation Report:**  Group the homes by area (zip code). Calculate the median price within each area. Include in the report homes that are below the median price for each area and that are in good condition (at least 3).
 
-**Step 07**. Sale Price Report: Create a report listing all homes with a recommended sale price for each one. Group the homes by area (zip code) and by seasons (summer, winter, and so on). Calculate the median price within each area and season.
+You can download the report here: [report_purchase_recom.csv](https://github.com/lfreitas16/Insights-House-Rocket/blob/main/report_purchase_recom.csv?raw=true)  
 
-You can find more information in the Project Notebook
+**Step 07. Sale Price Report:** Create a report listing all homes with a recommended sale price for each one. Group the homes by area (zip code) and by seasons (summer, winter, and so on). Calculate the median price within each area and season.
+
+You can download the report here: [report_sale_price.csv](https://github.com/lfreitas16/Insights-House-Rocket/blob/main/report_sale_price.csv?raw=true)
+
+You can find more information in the Project Notebook  
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
-
 
 ## 4 - Top 3 Data Insights
 **Hypothesis 01**: Waterfront houses are 30% more expensive, on average.  
@@ -100,13 +99,9 @@ The sale price was calculated for two situations:
 | 2 | 10931 | 7,553,280,594.00 | 8,333,846,174.20 | 780,565,580.20 |
 | Grand Total | 21613 | 11,672,925,008.00 | 13,689,383,912.40 | 2,016,458,904.40 |
 
-You can download the reports here:
-[report_purchase_recom.csv](https://github.com/lfreitas16/Insights-House-Rocket/blob/main/report_purchase_recom.csv?raw=true)
-[report_sale_price.csv](https://github.com/lfreitas16/Insights-House-Rocket/blob/main/report_sale_price.csv?raw=true)
-
 ## 6 - Conclusions
 
-The plan was to use data visualization and calculation tools to solve business problems, improving our understanding of the available dataset, for example, which characteristics had the biggest impact on the results. The findings (insights) will help the business team on closing the best deals in the real estate market.
+The plan was to use data calculation and visualization tools to solve business problems, improving our understanding of the available dataset, for example, which characteristics had the biggest impact on the results. The findings (insights) will help the business team on closing the best deals in the real estate market.
 
 ## 7 - Next Steps to Improve
 
@@ -116,7 +111,6 @@ The plan was to use data visualization and calculation tools to solve business p
 * Heroku ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 * PyCharm ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
 * Python ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-* Streamlit [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/yourGitHubName/yourRepo/yourApp/)
 
 
 ## 9 - Author
