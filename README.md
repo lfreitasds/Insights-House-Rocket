@@ -38,7 +38,7 @@ The data for our portfolio comes from the official public records of home sales 
 | sqft_lot15 | The square footage of the land lots of the nearest 15 neighbors |
 
 [Dataset from Kaggle](https://www.kaggle.com/harlfoxem/housesalesprediction)  
-https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white
+![kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)
 
 ## 2 - Business Assumptions
 
