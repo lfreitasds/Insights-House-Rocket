@@ -65,7 +65,7 @@ You can launch the app here:
 [House Rocket App](https://analytics-house-rocket-lf16.herokuapp.com/)
 ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
-**Step 05. Hypotheses Testing:** Discover insights and trends and communicate the findings to the business team. Insights are unexpected discoveries through data.
+**Step 05. Hypotheses Testing:** Discover insights and trends and communicate the findings to the business team.
 
 **Step 06. Purchase Recommendation Report:**  Group the homes by area (zip code). Calculate the median price within each area. Include in the report homes that are below the median price for each area and that are in good condition (at least 3).
 
@@ -79,6 +79,9 @@ You can find more information in the Project Notebook
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ## 4 - Top 3 Data Insights
+
+Insights are unexpected discoveries through data.  
+
 **Hypothesis 01**: Waterfront houses are 30% more expensive, on average.  
 **TRUE**: Waterfront houses are 213% more expensive, on average.
 
@@ -107,14 +110,14 @@ The plan was to use data calculation and visualization tools to solve business p
 
 ## 8 - Technologies
 
-* Jupyter Notebook ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
-* Heroku ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
-* PyCharm ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
-* Python ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+* (https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+* ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
+* ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
+* ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 
 ## 9 - Author
 
 Leonardo de Freitas  
 Aspiring Data Scientist
-- [@lfreitas16](https://github.com/lfreitas16/)
+- [@GitHub Profile](https://github.com/lfreitas16/)
