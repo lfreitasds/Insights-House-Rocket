@@ -62,7 +62,7 @@ Houses Attributes: Examine the concentration of homes by the number of bedrooms,
 **Step 04. Cloud Application:** Build, deploy and run a cloud application where the House Rocket CEO can do the analyses by himself reviewing the company's portfolio. The app will have graphs and a map with an interactive user interface. With the available filters, one can select the data to be shown in tables and graphs. Selection can be made by one or more attributes, by zip code, by maximum price, and so on. A map will show the portfolio density (number of homes) by zip code area.
 
 You can launch the app here:
-[House Rocket App](https://analytics-house-rocket-lf16.herokuapp.com/)
+[House Rocket App](https://analytics-house-rocket-lf16.herokuapp.com/)  
 ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
 **Step 05. Hypotheses Testing:** Discover insights and trends and communicate the findings to the business team.
@@ -110,14 +110,13 @@ The plan was to use data calculation and visualization tools to solve business p
 
 ## 8 - Technologies
 
-* (https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
-* ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
-* ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
-* ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
+![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ## 9 - Author
 
 Leonardo de Freitas  
 Aspiring Data Scientist
-- [@GitHub Profile](https://github.com/lfreitas16/)
+[GitHub Profile](https://github.com/lfreitas16/)
